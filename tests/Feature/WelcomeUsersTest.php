@@ -12,6 +12,7 @@ class WelcomeUsersTest extends TestCase
             ->assertSee('Bienvenido Duilio, tu apodo es silence');
     }
     
+    
     /** @test */
     function it_welcomes_users_without_nickname()
     {
